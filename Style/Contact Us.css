@@ -1,0 +1,23 @@
+*/* Author: Anabel Echemendia
+    Date: 04/19/2026
+    CSS for Final Projest Contact Us page*/
+
+label{
+    display: block;
+    align-content: center;
+
+}
+input{
+width: 40%;
+font-size: inherit;
+padding: 0.2em;
+margin-bottom: 1em;
+}
+
+textarea{
+    width: 50%;
+    padding: 0.2em;
+    height: 5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: inherit;
+}

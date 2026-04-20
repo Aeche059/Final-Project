@@ -1,0 +1,23 @@
+*/* Author: Anabel Echemendia
+    Date: 04/19/2026
+    CSS for Final project menu */
+
+a {
+  text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+main img{
+    width: 50%;
+    float: left;
+    margin: 10px;   /* space between image and text */
+}
+
+main li {
+    overflow:auto;       
+    margin-bottom:10px;
+    padding-bottom: 5px;
+}
