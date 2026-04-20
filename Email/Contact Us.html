@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Author: Anabel Echemendia
+      Date: 04/19/2026
+      Final Project - Siesta Cove Pet Hotel and Spa contact us webpage -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Siesta Cove Pet Hotel and Spa</title>
+	<link rel="icon" href="../Images/grooming.png">
+    <link rel="stylesheet" href="../Style/Pet Hotel.css">
+    <link rel="stylesheet" href="../Style/Menu.css">
+    <link rel="stylesheet" href="../Style/Contact Us.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+        <img src="../Images/grooming.png">
+        <h2>Siesta Cove Pet Hotel and Spa</h2>
+	    <h3>A retreat for you and your four legged companion!</h3>
+    </header>
+
+    <nav id="nav_menu" >
+        <input type="checkbox" id="menu_toggle">
+        <label for="menu_toggle" class="menu_btn">Menu</label>
+                
+        <ul>
+                <li><a href="../Pet Hotel.html">Home</a></li>
+                <li class="has_sub"><a href="">Services</a>
+                     <ul class="submenu">
+                            <li> <a href="">Boarding</a></li>
+                            <li> <a href="">Daycare</a></li>
+                            <li> <a href="">Grooming</a></li>
+                            <li> <a href="">Spa Treatments</a></li>
+                            <li> <a href="">Training</a></li>
+                            <li> <a href="">On Site Vet</a></li>
+                        </ul>
+                    </li>    
+                    <li class="has_sub"><a href="">Suites</a>
+                        <ul class="submenu">
+                            <li><a href="">Our Rooms</a></li>
+                            <li><a href="">Special Add Ons</a></li>
+                            <li><a href="">Room Service</a></li>
+                            <li><a href="">Avalible Dates</a></li>
+                        </ul>
+                    </li>    
+                    <li class="has_sub"><a href="">Spa</a>
+                        <ul class="submenu">
+                            <li><a href="">Our Gallery</a></li>
+                            <li><a href="">Book an Appointment</a></li>
+                            <li><a href="">Signature Package</a></li>
+                            <li><a href="">Aromatherapy</a></li>
+                            <li><a href="">Relaxation</a></li>
+                        </ul>
+                    </li>    
+                    <li class="current"><a href="">Contact Us</a> </li>
+                    </ul>
+     </nav>
+     <main>
+
+                <section>
+            <div class="main-col"> <!-- right column -->
+                <h1>Have any questions... Contact Us!</h1> <!-- page heading -->
+
+                <form action="Thank You.html" method="get"> <!-- join email form -->
+                    <div class="form-row"> <!-- first name row -->
+                    <label for="first_name">First Name:</label>
+                    <input type="text" id="first_name" name="first_name" required autofocus>
+                    </div>
+
+                    <div class="form-row"> <!-- last name row -->
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" id="last_name" name="last_name" required>
+                    </div>
+
+                    <div class="form-row"> <!-- email row -->
+                    <label for="email_address">Email Address:</label>
+                    <input type="email" id="email_address" name="email_address" required>
+                    </div>
+
+                    <div class="form-row"> <!-- phone row -->
+                    <label for="phone_number">Phone Number:</label>
+                    <input type="tel" id="phone_number" name="phone_number">
+                    </div>
+
+                    <div class="form-row"> <!-- zip row -->
+                    <label for="zip_code">Zip Code:</label>
+                    <input type="text" id="zip_code" name="zip_code" pattern="[0-9]{5}(-[0-9]{4})?" placeholder="12345 or 12345-6789" title="Use 12345 or 12345-6789">
+                    </div>
+
+
+                    <div class="form-row">
+                    <label for="questions">Questions</label>
+                    <textarea id="questions" placeholder="Add your questions and reservation dates here."></textarea>    
+                    </div>
+
+                    <div class="form-row form-actions"> <!-- submit row -->
+                    <input type="submit" value="Contact Us">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+      <aside>
+             <div>
+            <h4>Our guarantee</h4>
+            <p>Compared to other resorts, we promise to provide a calm, enriching environment with plenty of affection, playtime, and personalized attention tailored to your pets needs and personality..<strong> No questions asked!</strong></p>
+             </div>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Siesta Cove Pet Spa and Hotel </p>
+    </footer>
+
+</body>
+</html>
